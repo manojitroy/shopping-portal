@@ -5,7 +5,7 @@ pipeline{
        nodejs 'nodejs' 
     }
     
-    stages{
+   
         stage('build'){
             steps{
                 echo 'this is the build job'
