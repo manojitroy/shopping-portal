@@ -7,12 +7,8 @@ pipeline{
        nodejs 'nodejs' 
     }
     
-<<<<<<< HEAD
 
     stages{
-=======
-   
->>>>>>> 6df4d966cddd2d21709788e04a0703de4f696e0c
         stage('build'){
             steps{
                 echo 'this is the build job'
